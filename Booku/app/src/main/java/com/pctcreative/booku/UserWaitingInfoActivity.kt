@@ -36,7 +36,7 @@ class UserWaitingInfoActivity : AppCompatActivity() {
         //email
         getDB("EmailAddress",Email)
         //Link
-        getDB("Link", Name)
+        getDB("Link", Link)
         //HomeAddress
         getDB("HomeAddress",HomeAddress)
         //Password

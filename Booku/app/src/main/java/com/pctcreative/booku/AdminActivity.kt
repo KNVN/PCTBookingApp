@@ -64,7 +64,7 @@ class AdminActivity: AppCompatActivity() {
                     userList.add(book!!)
                 }
 
-                for(i in userList.size-1 downTo 0){
+                for(i in 0 until userList.size){
                     if(!userList.get(i).Day.equals(0.toLong())) {
                         val diff = currentTime - userList.get(i).Day
                         if ( diff >= 3600000) { // 60 mins
